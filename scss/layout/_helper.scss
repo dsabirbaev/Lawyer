@@ -255,5 +255,70 @@ body {
 }
 
 @media only screen and (max-width: 390px) {
-  
+  body {
+    #yourChoose {
+      .container {
+        .wrapper {
+          .cardMain {
+            display: block;
+            .leftCard {
+              h1 {
+                font-size: 20px;
+              }
+              p {
+                font-size: 14px;
+              }
+              ul {
+                li {
+                  font-size: 20px;
+                  p {
+                    font-size: 20px;
+                  }
+                }
+              }
+            }
+            .rightCard {
+              margin-top: 30px;
+              img {
+                width: 360px;
+                height: 247px;
+
+              }
+            }
+          }
+          .cardFooter {
+            display: block;
+            padding: 20px;
+            .cardLeft {
+              p {
+                font-size: 18px;
+              }
+              a {
+                font-size: 36px;
+              }
+            }
+            .cardRight {
+              p {
+                font-size: 16px;
+                margin-top: 15px;
+              }
+              .inpBox {
+                display: block;
+                width: 100%;
+                label {
+                  font-size: 12px;
+                }
+              
+              }
+              button {
+                width: 100%;
+                margin-left: 0 !important;
+                margin-top: 15px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

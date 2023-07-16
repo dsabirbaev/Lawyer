@@ -3456,6 +3456,56 @@ body #yourChoose .container .wrapper .cardFooter .cardRight .pp {
     font-size: 15px;
   }
 }
+@media only screen and (max-width: 390px) {
+  body #yourChoose .container .wrapper .cardMain {
+    display: block;
+  }
+  body #yourChoose .container .wrapper .cardMain .leftCard h1 {
+    font-size: 20px;
+  }
+  body #yourChoose .container .wrapper .cardMain .leftCard p {
+    font-size: 14px;
+  }
+  body #yourChoose .container .wrapper .cardMain .leftCard ul li {
+    font-size: 20px;
+  }
+  body #yourChoose .container .wrapper .cardMain .leftCard ul li p {
+    font-size: 20px;
+  }
+  body #yourChoose .container .wrapper .cardMain .rightCard {
+    margin-top: 30px;
+  }
+  body #yourChoose .container .wrapper .cardMain .rightCard img {
+    width: 360px;
+    height: 247px;
+  }
+  body #yourChoose .container .wrapper .cardFooter {
+    display: block;
+    padding: 20px;
+  }
+  body #yourChoose .container .wrapper .cardFooter .cardLeft p {
+    font-size: 18px;
+  }
+  body #yourChoose .container .wrapper .cardFooter .cardLeft a {
+    font-size: 36px;
+  }
+  body #yourChoose .container .wrapper .cardFooter .cardRight p {
+    font-size: 16px;
+    margin-top: 15px;
+  }
+  body #yourChoose .container .wrapper .cardFooter .cardRight .inpBox {
+    display: block;
+    width: 100%;
+  }
+  body #yourChoose .container .wrapper .cardFooter .cardRight .inpBox label {
+    font-size: 12px;
+  }
+  body #yourChoose .container .wrapper .cardFooter .cardRight button {
+    width: 100%;
+    margin-left: 0 !important;
+    margin-top: 15px;
+  }
+}
 body #information {
   padding-top: 80px;
 }
